@@ -1,0 +1,20 @@
+{
+  "name": "fe-cli-app-example",
+  "version": "1.0.0",
+  "description": "fe-cli-app-example vue",
+  "scripts": {
+    "serve": "fe-cli-service serve",
+    "build": "fe-cli-service build",
+    "inspect": "fe-cli-service inspect"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "devDependencies": {
+    "@etherfe/cli-plugin-vue": "^0.1.0-alpha.0",
+    "@etherfe/cli-service": "^0.1.0-alpha.0"
+  },
+  "author": "nolonger21",
+  "license": "MIT"
+}
