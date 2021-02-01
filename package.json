@@ -1,0 +1,8 @@
+{
+  "name": "fe-cli-app-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "fe-cli-service app-example",
+  "author": "nolonger21",
+  "license": "MIT"
+}
