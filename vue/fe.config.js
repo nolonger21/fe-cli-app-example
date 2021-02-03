@@ -25,6 +25,20 @@ module.exports = ({ feConfig, chainWebpack } = {}) => {
       // 'local:fe-cli-plugin-test': { // !important
       //   test: true,
       // }
+      // '@etherfe/cli-plugin-eslint': {
+      //   eslintOptions: {
+      //     formatter: 'codeframe', // default 'stylish'
+      //     fix: false, // save auto fix. recommended editor plug-in eslint/prettier
+      //   },
+      // },
+      // '@etherfe/cli-plugin-stylelint': {
+      //   stylelintOptions: {
+      //     fix: false, // save auto fix. recommended editor plug-in stylelint
+      //   },
+      // },
+      // '@etherfe/cli-plugin-vue': {
+      //   runtimeCompiler: false,
+      // },
     }
   })
 
