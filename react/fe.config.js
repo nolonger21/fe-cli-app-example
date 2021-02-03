@@ -36,9 +36,6 @@ module.exports = ({ feConfig, chainWebpack } = {}) => {
           fix: true, // save auto fix. recommended editor plug-in stylelint
         },
       },
-      '@etherfe/cli-plugin-vue': {
-        runtimeCompiler: false,
-      },
     }
   })
 
