@@ -10,29 +10,6 @@ Please read the file content notes
 ## vue
 @etherfe/cli-plugin-vue
 
-```
-.env
-APP_1 = 1
-APP_2 = 2
-APP_3 = 3
-
-.env.development
-APP_2 = 2dev
-APP_3 = 3dev
-
-.env.production
-APP_3 = 3pro
-
-```
-
-yarn build
-
-```js
-console.log(process.env.APP_1) // 1
-console.log(process.env.APP_2) // 2
-console.log(process.env.APP_3) // 3pro
-```
-
 
 ## eslint
 

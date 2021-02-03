@@ -15,11 +15,9 @@
 based on Vue CLI service remake
 https://github.com/vuejs/vue-cli
 
-
 #### Why write this CLI service
 
 Research learning, simplified configuration, decoupled plug-ins, React support, etc
-
 
 #### ⚠ Differences from the Vue CLI
 
@@ -37,7 +35,6 @@ Research learning, simplified configuration, decoupled plug-ins, React support, 
 - Added plugin run check prompt function
 - Keep Webpack Configuration habits and use Plugin Configuration Decoupling
 - Plug-in configuration has both global and local configuration capabilities
-
 
 #### Vue cli options changes
 https://cli.vuejs.org/zh/config/
@@ -135,4 +132,29 @@ module.exports.skipPlugins = [
   // 'local:fe-cli-plugin-test'
 ]
 
+```
+
+#### Environment file
+
+```js
+// .env
+APP_1 = 1
+APP_2 = 2
+APP_3 = 3
+
+// .env.development
+APP_2 = 2dev
+APP_3 = 3dev
+
+// .env.production
+APP_3 = 3pro
+
+```
+
+yarn build
+
+```js
+console.log(process.env.APP_1) // 1
+console.log(process.env.APP_2) // 2
+console.log(process.env.APP_3) // 3pro
 ```
