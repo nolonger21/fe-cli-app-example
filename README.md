@@ -66,7 +66,7 @@ https://cli.vuejs.org/zh/config/
 
 #### fe.config.js/webpack.config.js
 
-```json
+```js
 module.exports = ({ feConfig, chainWebpack } = {}) => {
   // plugin configuration items
   feConfig(config => {
