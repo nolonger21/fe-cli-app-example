@@ -1,6 +1,7 @@
 import React, { useCallback, useMemo } from 'react'
 import { useState, useEffect } from 'react'
 import svgImg from './assets/react.svg'
+import './App.less'
 
 function App() {
   const [count, setCount] = useState(0)
