@@ -1,0 +1,26 @@
+{
+  // "extends": "",
+  "include": [
+    "src/*",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "compilerOptions": {
+    "module": "es6", // 使用 ES2015 模块
+    "target": "es6", // 编译成 ES2015 (Babel 将做剩下的事情)
+    "allowSyntheticDefaultImports": true, // 允许使用default导出引用
+    "esModuleInterop": true, // 可调用的CommonJS模块必须被做为默认导入 未default的导出不需要 * as xx了
+    "jsx": "preserve", // 开启 JSX 模式, 但是 "preserve" 告诉 TypeScript 不要转换它(我们将使用 Babel)
+    "allowJs": true, // 是否允许js文件和语法再ts环境运行，开启后，ts声明文件在js文件点击模块可以跳转
+    "noEmit": true, // 不生成文件，只做类型检查
+    "strict": true, // 严格模式
+    "moduleResolution": "node", // 如何处理模块, 如果不设置node，则import 找不到模块
+    "experimentalDecorators": true // 开启装饰器支持
+  }
+}
