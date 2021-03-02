@@ -25,7 +25,9 @@ module.exports = ({ feConfig, chainWebpack } = {}) => {
         stylelintOptions: {
           fix: true, // save auto fix. recommended editor plug-in stylelint
         },
-        forkTsChecker: true,
+        forkTsCheckerOptions: {
+          async: true,
+        },
       },
       // 'local:fe-cli-plugin-test': {
       //   // !important

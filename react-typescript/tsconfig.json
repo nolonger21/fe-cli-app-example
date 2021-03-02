@@ -18,7 +18,7 @@
     "esModuleInterop": true, // Callable CommonJS modules must be imported as default. Exports without default do not need * as xx anymore
     "jsx": "react", // Use the Babel transform
     "allowJs": true,
-    // "noEmit": true,
+    "noEmit": true,
     "strict": true,
     "moduleResolution": "node",
     "experimentalDecorators": true

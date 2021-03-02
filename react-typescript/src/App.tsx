@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import svgImg from './assets/react.svg'
 import './App.less'
 
-useEffect(() => {}, [])
+const a: any = {}
 
 function App(): React.ReactElement {
   const [count, setCount] = useState(0)
