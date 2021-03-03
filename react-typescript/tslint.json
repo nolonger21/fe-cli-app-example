@@ -1,4 +1,5 @@
 {
+  "extends": "tslint:recommended",
   "linterOptions": {
     "exclude": ["node_modules"]
   },
@@ -42,6 +43,7 @@
     "no-trailing-whitespace": true,
     "no-null-keyword": false,
     "prefer-const": true,
-    "jsdoc-format": true
+    "jsdoc-format": true,
+    "no-console": [false, "log", "error"]
   }
 }
