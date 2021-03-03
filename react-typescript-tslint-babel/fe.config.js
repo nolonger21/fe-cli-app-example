@@ -18,10 +18,6 @@ module.exports = ({ feConfig, chainWebpack } = {}) => {
         //   sourceMap: false,
         //   loaderOptions: {},
         // },
-        eslintOptions: {
-          // formatter: 'codeframe', // default 'stylish'
-          fix: true, // save auto fix. recommended editor plug-in eslint/prettier
-        },
         stylelintOptions: {
           fix: true, // save auto fix. recommended editor plug-in stylelint
         },

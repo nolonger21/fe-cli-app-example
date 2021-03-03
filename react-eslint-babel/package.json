@@ -1,7 +1,7 @@
 {
-  "name": "fe-cli-app-example-react",
+  "name": "react-eslint-babel",
   "version": "1.0.0",
-  "description": "fe-cli-app-example react",
+  "description": "fe-cli-app-example react-eslint-babel",
   "scripts": {
     "serve": "fe-cli-service serve",
     "build": "fe-cli-service build",

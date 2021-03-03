@@ -1,6 +1,6 @@
 
 
-# fe-cli-app-example-react-eslint-typescript
+# react-typescript-tslint-babel
 
 ## fe.config.js
 ```
@@ -12,6 +12,8 @@ Please read the file content notes
 
 ## typescript
 ```
+@etherfe/cli-plugin-typescript
+
 typescript  
 
 @types/node  
@@ -22,33 +24,31 @@ typescript
 tsconfig.json
 
 
-
 ```json
- // see file
-```
-## eslint
-
-```
-@etherfe/cli-plugin-eslint  
-@etherfe/eslint-plugin  
-eslint  
-```
-
-
-.eslintrc.js
-
-```js
-module.exports = {
-  root: true,
-  extends: [
-    'plugin:@etherfe/react-typescript',
-    'plugin:@etherfe/prettier-react',
-    'plugin:@etherfe/prettier-typescript',
-  ],
-  rules: {},
+{
+  // ...
+  "compilerOptions": {
+    // ...
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin" // https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
+      }
+    ]
+  }
 }
 
 ```
+## tslint
+
+```
+tslint  
+tslint-react  
+tslint-react-hooks  
+typescript-tslint-plugin  
+```
+
+tslint.json
+
 
 ### prettier
 
@@ -91,7 +91,7 @@ module.exports = {
 
 ```
 
-eslint/prettier/stylelint
+tslint/prettier/stylelint
 ```
 Recommended use the editor plugin
 ```

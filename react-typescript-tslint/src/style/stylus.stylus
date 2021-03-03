@@ -1,0 +1,4 @@
+#app
+  .stylus-style {
+    color: green
+  }

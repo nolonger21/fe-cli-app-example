@@ -1,0 +1,12 @@
+// Need to be consistent with ESLint
+// Used when formatting Prettier
+
+module.exports = {
+  printWidth: 120,
+  tabWidth: 2,
+  useTabs: false,
+  singleQuote: true,
+  semi: false,
+  trailingComma: "es5",
+  bracketSpacing: true
+}
