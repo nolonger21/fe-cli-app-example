@@ -908,54 +908,55 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@etherfe/cli-plugin-babel@^0.1.0-alpha.1":
-  version "0.1.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-babel/download/@etherfe/cli-plugin-babel-0.1.0-alpha.1.tgz#318c002601c0d9ac994dc66b48e81cf21ff716d5"
-  integrity sha1-MYwAJgHA2ayZTcZrSOgc8h/3FtU=
+"@etherfe/cli-plugin-babel@^0.1.0-alpha.2":
+  version "0.1.0-alpha.2"
+  resolved "https://registry.npmjs.org/@etherfe/cli-plugin-babel/-/cli-plugin-babel-0.1.0-alpha.2.tgz#67fd2c13c497c25e35f3807887d054a264b671f3"
+  integrity sha512-b4I3tJZdN2qNFQSQLp/cnf55/O01c703aRwxuh3ZBCRZENG9vIYZjDmY1kzPveRxL0s2bBDaaoGSpeYu/ZQdRw==
   dependencies:
     "@babel/core" "^7.11.4"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
     "@babel/plugin-proposal-decorators" "^7.10.5"
     "@babel/plugin-proposal-object-rest-spread" "^7.11.0"
     "@babel/preset-env" "^7.11.0"
-    "@etherfe/cli-utils" "^0.1.0-alpha.1"
+    "@etherfe/cli-utils" "^0.1.0-alpha.2"
     babel-loader "^8.1.0"
     babel-plugin-component "^1.1.1"
-    thread-loader "^2.1.3"
+    thread-loader "^3.0.1"
 
-"@etherfe/cli-plugin-react@^0.1.0-alpha.1":
-  version "0.1.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-react/download/@etherfe/cli-plugin-react-0.1.0-alpha.1.tgz#dfab6558486ffbaaa0aa9c06e8250fa7bfeb4fc0"
-  integrity sha1-36tlWEhv+6qgqpwG6CUPp7/rT8A=
+"@etherfe/cli-plugin-react@^0.1.0-alpha.2":
+  version "0.1.0-alpha.2"
+  resolved "https://registry.npmjs.org/@etherfe/cli-plugin-react/-/cli-plugin-react-0.1.0-alpha.2.tgz#4754f2da0ff0a3d9b6a741bedc0c5e4fc874efcd"
+  integrity sha512-KI789sKDFcckXzWujI+t+8OSKmw/t8TghKw1L/Yzy1tinGzVCJSiunr8HwWkfpwF6PXCiQBNlFcKxr1Ty7qx5w==
   dependencies:
     "@babel/preset-react" "^7.10.4"
 
-"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.1":
-  version "0.1.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.1.tgz#ef4f649c35977cf95cb8c0c31f7550396ee985f1"
-  integrity sha1-709knDWXfPlcuMDDH3VQOW7phfE=
+"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.2":
+  version "0.1.0-alpha.2"
+  resolved "https://registry.npmjs.org/@etherfe/cli-plugin-stylelint/-/cli-plugin-stylelint-0.1.0-alpha.2.tgz#7317cf681a4c2ea42b59f685249db4d7d719d7bf"
+  integrity sha512-B2rPe1qExjNzH2z8aBOczpn/CezkDnOAJGXAcG0pxanw7wGGE5CY7CTWRkzSWqyf3ciJ7SljvdFYte7S4n5/Mw==
   dependencies:
-    "@etherfe/cli-utils" "^0.1.0-alpha.1"
+    "@etherfe/cli-utils" "^0.1.0-alpha.2"
     stylelint-webpack-plugin "^2.1.1"
 
-"@etherfe/cli-plugin-typescript@^0.1.0-alpha.1":
-  version "0.1.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.1.tgz#3524514484cafe4466c4be874cf3fe7b0b85add5"
-  integrity sha1-NSRRRITK/kRmxL6HTPP+ewuFrdU=
+"@etherfe/cli-plugin-typescript@^0.1.0-alpha.2":
+  version "0.1.0-alpha.2"
+  resolved "https://registry.npmjs.org/@etherfe/cli-plugin-typescript/-/cli-plugin-typescript-0.1.0-alpha.2.tgz#b9861cdaaa6806a86edba0df7c0d017250aea16e"
+  integrity sha512-DjfFoOPyvi5PNmtBz524Jk4eM3PQYlK0mRgWGq89DA4AteedlZWb7U7W+pdGf7mpr7KIL9uupbkvaNs3N7qwVg==
   dependencies:
-    "@etherfe/cli-utils" "^0.1.0-alpha.1"
+    "@etherfe/cli-utils" "^0.1.0-alpha.2"
     babel-loader "^8.1.0"
     cache-loader "^4.1.0"
     fork-ts-checker-webpack-plugin "^3.1.1"
+    thread-loader "^3.0.1"
     ts-loader "^8.0.3"
     tslint "^6.1.3"
 
-"@etherfe/cli-service@^0.1.0-alpha.1":
-  version "0.1.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-service/download/@etherfe/cli-service-0.1.0-alpha.1.tgz#70ddf57a27c603786069d76240feace33f05b151"
-  integrity sha1-cN31eifGA3hgaddiQP6s4z8FsVE=
+"@etherfe/cli-service@^0.1.0-alpha.2":
+  version "0.1.0-alpha.2"
+  resolved "https://registry.npmjs.org/@etherfe/cli-service/-/cli-service-0.1.0-alpha.2.tgz#a17e3062e16baf9995722cbf165e06d217d5aa97"
+  integrity sha512-DdCgXZPTFxAOFdbsSvwLGQS3qFl+RiZZAVT+03CEH5ED20WXy0fiqT1GdRimg2DDUZU3YAfx7lD0WFMbDeAKnw==
   dependencies:
-    "@etherfe/cli-utils" "^0.1.0-alpha.1"
+    "@etherfe/cli-utils" "^0.1.0-alpha.2"
     "@intervolga/optimize-cssnano-plugin" "^1.0.6"
     "@soda/friendly-errors-webpack-plugin" "^1.7.1"
     address "^1.1.2"
@@ -976,6 +977,7 @@
     less "^3.12.2"
     less-loader "^6.2.0"
     lodash.defaultsdeep "^4.6.1"
+    lodash.merge "^4.6.2"
     mini-css-extract-plugin "^0.10.0"
     portfinder "^1.0.28"
     postcss-loader "^3.0.0"
@@ -994,10 +996,10 @@
     webpack-dev-server "^4.0.0-beta.0"
     webpack-merge "^5.1.1"
 
-"@etherfe/cli-utils@^0.1.0-alpha.1":
-  version "0.1.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-utils/download/@etherfe/cli-utils-0.1.0-alpha.1.tgz#cdc02b912da4c51a3327ee9e23a42b676aea8560"
-  integrity sha1-zcArkS2kxRozJ+6eI6QrZ2rqhWA=
+"@etherfe/cli-utils@^0.1.0-alpha.2":
+  version "0.1.0-alpha.2"
+  resolved "https://registry.npmjs.org/@etherfe/cli-utils/-/cli-utils-0.1.0-alpha.2.tgz#031da23b2d756f259097dc7f39b292693e5289ef"
+  integrity sha512-EtunH3qskcNGGj7WaVmcLykH6r3Tf9CPPe7LxZ7x7TSj4V6WLY/J+t37F/Xz48vjb+oEdgg3vd/8V0uH7bhXRQ==
   dependencies:
     chalk "^4.1.0"
     dotenv "^8.2.0"
@@ -1013,10 +1015,10 @@
     semver "^7.3.2"
     strip-ansi "^6.0.0"
 
-"@etherfe/stylelint-config@^0.1.0-alpha.1":
-  version "0.1.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@etherfe/stylelint-config/download/@etherfe/stylelint-config-0.1.0-alpha.1.tgz#f6b9f5b0327964a1cfdfdf008f3cc23fa600f836"
-  integrity sha1-9rn1sDJ5ZKHP398AjzzCP6YA+DY=
+"@etherfe/stylelint-config@^0.1.0-alpha.2":
+  version "0.1.0-alpha.2"
+  resolved "https://registry.npmjs.org/@etherfe/stylelint-config/-/stylelint-config-0.1.0-alpha.2.tgz#a83f17b2d6787c62beff3e9132f8203e2377d833"
+  integrity sha512-qYA8uY1ioC60DjWhuloRTG0rR81eMBAs/SG2/waf911jyVHaXN7FtYnWDMz5abf0ENjWgTigrRwaqG56Nsdufw==
   dependencies:
     stylelint-config-prettier "^8.0.2"
     stylelint-config-standard "^20.0.0"
@@ -4324,15 +4326,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npm.taobao.org/lines-and-columns/download/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-loader-runner@^2.3.1:
-  version "2.4.0"
-  resolved "https://registry.npm.taobao.org/loader-runner/download/loader-runner-2.4.0.tgz?cache=0&sync_timestamp=1610027938815&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Floader-runner%2Fdownload%2Floader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
-  integrity sha1-7UcGa/5TTX6ExMe5mYwqdWB9k1c=
-
-loader-runner@^4.2.0:
+loader-runner@^4.1.0, loader-runner@^4.2.0:
   version "4.2.0"
-  resolved "https://registry.npm.taobao.org/loader-runner/download/loader-runner-4.2.0.tgz?cache=0&sync_timestamp=1610027938815&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Floader-runner%2Fdownload%2Floader-runner-4.2.0.tgz#d7022380d66d14c5fb1d496b89864ebcfd478384"
-  integrity sha1-1wIjgNZtFMX7HUlriYZOvP1Hg4Q=
+  resolved "https://registry.npmjs.org/loader-runner/-/loader-runner-4.2.0.tgz#d7022380d66d14c5fb1d496b89864ebcfd478384"
+  integrity sha512-92+huvxMvYlMzMt0iIOukcwYBFpkYJdpl2xsZ7LrlayO7E8SOv+JJUEK17B/dJIHAOLMfh2dZZ/Y18WgmGtYNw==
 
 loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4.0:
   version "1.4.0"
@@ -4378,6 +4375,11 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npm.taobao.org/lodash.memoize/download/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
+
+lodash.merge@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
 lodash.uniq@^4.5.0:
   version "4.5.0"
@@ -4816,7 +4818,7 @@ negotiator@0.6.2:
   resolved "https://registry.npm.taobao.org/negotiator/download/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
 
-neo-async@^2.6.0, neo-async@^2.6.1, neo-async@^2.6.2:
+neo-async@^2.6.1, neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.npm.taobao.org/neo-async/download/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
@@ -6939,14 +6941,14 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-thread-loader@^2.1.3:
-  version "2.1.3"
-  resolved "https://registry.npm.taobao.org/thread-loader/download/thread-loader-2.1.3.tgz#cbd2c139fc2b2de6e9d28f62286ab770c1acbdda"
-  integrity sha1-y9LBOfwrLebp0o9iKGq3cMGsvdo=
+thread-loader@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/thread-loader/-/thread-loader-3.0.1.tgz#059752d5c3e223ec58fad5868fe6405e8375d480"
+  integrity sha512-c8Mr7jooXEAochk72XoQ1vPauwFToz9GVwqevqQShAypCUW0nRzYIbkzZo3KErNhhYf/+ga5cUQWxVXQteJj/g==
   dependencies:
-    loader-runner "^2.3.1"
-    loader-utils "^1.1.0"
-    neo-async "^2.6.0"
+    loader-runner "^4.1.0"
+    loader-utils "^2.0.0"
+    neo-async "^2.6.2"
 
 thunky@^1.0.2:
   version "1.1.0"
