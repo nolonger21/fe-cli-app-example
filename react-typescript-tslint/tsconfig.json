@@ -13,7 +13,13 @@
   ],
   "compilerOptions": {
     "module": "es6", // Use the ES2015 module
-    "target": "es6", // Compile to ES2015 (Babel will do the rest)
+    "target": "es5", // Compile to ES2015 (Babel will do the rest)
+    "lib": [
+      "ES5",
+      "DOM",
+      "ES2019.Object",
+      "ScriptHost"
+    ],
     "allowSyntheticDefaultImports": true, // Default export references are allowed
     "esModuleInterop": true, // Callable CommonJS modules must be imported as default. Exports without default do not need * as xx anymore
     "jsx": "react", // Use the Babel transform
@@ -24,7 +30,8 @@
     "experimentalDecorators": true,
     "plugins": [
       {
-        "name": "typescript-tslint-plugin"
+        "name": "typescript-tslint-plugin",
+        "jsEnable": true
       }
     ]
   }

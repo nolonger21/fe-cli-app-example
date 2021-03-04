@@ -6,7 +6,9 @@ import './App.less'
 const a: any = {}
 
 if (true) {
+
 }
+
 
 function App(): React.ReactElement {
   const [count, setCount] = useState(0)
