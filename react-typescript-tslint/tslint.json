@@ -1,5 +1,9 @@
 {
-  "extends": "tslint:recommended",
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-react-hooks"
+  ],
   "linterOptions": {
     "exclude": ["node_modules"]
   },
