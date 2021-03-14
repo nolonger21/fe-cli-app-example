@@ -11,9 +11,6 @@ ReactDom.render(<App />, document.getElementById('app'))
 console.info(process.env.APP_1)
 
 
-
-
-
 console.info(process.env.APP_2)
 
 
