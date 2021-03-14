@@ -22,16 +22,11 @@ module.exports = ({ feConfig, chainWebpack } = {}) => {
           fix: true, // save auto fix. recommended editor plug-in stylelint
         },
         forkTsCheckerOptions: {
-          async: true,
-        },
-      },
-      // 'local:fe-cli-plugin-test': {
-      //   // !important
-      //   test: true,
-      // },
-      // '@etherfe/cli-plugin-typescript': {
-      //   forkTsChecker: true,
-      // },
+          // eslint: true,
+          // async: false,
+          // formatter: 'codeframe',
+        }
+      }
     }
   })
 

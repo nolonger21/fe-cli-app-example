@@ -5,6 +5,12 @@ import App from './App'
 ReactDom.render(<App />, document.getElementById('app'))
 
 console.info(process.env.APP_1)
+
 console.info(process.env.APP_2)
 
 console.info(process.env.APP_3)
+
+window.a
+
+if (true) {
+}
