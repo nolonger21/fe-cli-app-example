@@ -1,12 +1,12 @@
 {
-  "name": "react-typescript-eslint-babel",
+  "name": "react-typescript-eslint",
   "version": "1.0.0",
-  "description": "fe-cli-app-example react-typescript-eslint-babel",
+  "description": "fe-cli-app-example react-typescript-eslint",
   "scripts": {
     "serve": "fe-cli-service serve",
     "build": "fe-cli-service build",
     "inspect": "fe-cli-service inspect",
-    "eslint": "eslint src --ext .js --fix"
+    "eslint": "eslint src --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
     "core-js": "^3.6.5",

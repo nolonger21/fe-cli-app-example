@@ -1,10 +1,7 @@
-import vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
 
-window.vm = new vue({
-  el: '#app',
-  render: h => h(App),
-})
+createApp(App).mount('#app')
 
 console.log(process.env.APP_1)
 console.log(process.env.APP_2)
