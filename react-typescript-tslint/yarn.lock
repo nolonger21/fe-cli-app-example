@@ -238,18 +238,18 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.npmjs.org/@etherfe/cli-plugin-stylelint/-/cli-plugin-stylelint-0.1.0-alpha.3.tgz#d2c9711a7d2092d342245e5a04b47415ad1ba156"
-  integrity sha512-khIqmtjryuBSJfdEJtrFqOor1ahT7Kw/Hx1eeD9ZsE4fDifOu3ZSJyxRGf6tnOLq4cuCsA3vv53zC+PkUVxPOA==
+"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.4.tgz#50df77ff30ad70181492a1ff530820a4a6e89a54"
+  integrity sha1-UN93/zCtcBgUkqH/UwggpKbomlQ=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     stylelint-webpack-plugin "^2.1.1"
 
-"@etherfe/cli-plugin-typescript@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.npmjs.org/@etherfe/cli-plugin-typescript/-/cli-plugin-typescript-0.1.0-alpha.3.tgz#efc204b75ffa161c0d61b576f836e9fd815932f6"
-  integrity sha512-COmTswg+JCTMjIr2iduhFuQ+046PsEm/EYElkl+Y1l80VUywlGsryYwdfVZjFNYNWxTSdBMJjKFRZ2SU7WUwPA==
+"@etherfe/cli-plugin-typescript@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.4.tgz#44c5e94a019f0041d81c6a09dd4a149b47a14894"
+  integrity sha1-RMXpSgGfAEHYHGoJ3UoUm0ehSJQ=
   dependencies:
     "@babel/preset-typescript" "^7.13.0"
     "@etherfe/cli-utils" "^0.1.0-alpha.2"

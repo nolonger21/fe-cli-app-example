@@ -999,26 +999,26 @@
     babel-plugin-component "^1.1.1"
     thread-loader "^3.0.1"
 
-"@etherfe/cli-plugin-eslint@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-eslint/download/@etherfe/cli-plugin-eslint-0.1.0-alpha.3.tgz#cb721720c8f49985c6ee4939145caab2ce0dd448"
-  integrity sha1-y3IXIMj0mYXG7kk5FFyqss4N1Eg=
+"@etherfe/cli-plugin-eslint@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-eslint/download/@etherfe/cli-plugin-eslint-0.1.0-alpha.4.tgz#b3b64c7cb806a47ec023fb6f01bc77d0560c72d5"
+  integrity sha1-s7ZMfLgGpH7AI/tvAbx30FYMctU=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
-    eslint-loader "^4.0.2"
+    eslint-webpack-plugin "^2.5.2"
 
-"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.3.tgz#d2c9711a7d2092d342245e5a04b47415ad1ba156"
-  integrity sha1-0slxGn0gktNCJF5aBLR0Fa0boVY=
+"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.4.tgz#50df77ff30ad70181492a1ff530820a4a6e89a54"
+  integrity sha1-UN93/zCtcBgUkqH/UwggpKbomlQ=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     stylelint-webpack-plugin "^2.1.1"
 
-"@etherfe/cli-plugin-typescript@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.3.tgz#efc204b75ffa161c0d61b576f836e9fd815932f6"
-  integrity sha1-78IEt1/6FhwNYbV2+Dbp/YFZMvY=
+"@etherfe/cli-plugin-typescript@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.4.tgz#44c5e94a019f0041d81c6a09dd4a149b47a14894"
+  integrity sha1-RMXpSgGfAEHYHGoJ3UoUm0ehSJQ=
   dependencies:
     "@babel/preset-typescript" "^7.13.0"
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
@@ -1030,17 +1030,17 @@
     ts-loader "^8.0.3"
     tslint "^6.1.3"
 
-"@etherfe/cli-plugin-vue@^0.1.0-alpha.2":
-  version "0.1.0-alpha.2"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-vue/download/@etherfe/cli-plugin-vue-0.1.0-alpha.2.tgz#290855faf02010be847955909ddbf6c9cafd2028"
-  integrity sha1-KQhV+vAgEL6EeVWQndv2ycr9ICg=
+"@etherfe/cli-plugin-vue@^0.1.0-alpha.3":
+  version "0.1.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-vue/download/@etherfe/cli-plugin-vue-0.1.0-alpha.3.tgz#154c38610219a62c1ece26cddc54f6252e0e6404"
+  integrity sha1-FUw4YQIZpiwezibN3FT2JS4OZAQ=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     babel-plugin-component "^1.1.1"
     pug "^3.0.0"
     pug-plain-loader "^1.0.0"
-    raw-loader "^4.0.1"
-    vue-loader "^15.9.3"
+    raw-loader "^4.0.2"
+    vue-loader "^15.9.6"
 
 "@etherfe/cli-service@^0.1.0-alpha.2":
   version "0.1.0-alpha.2"
@@ -1211,6 +1211,14 @@
   version "7.2.6"
   resolved "https://registry.npmjs.org/@types/eslint/-/eslint-7.2.6.tgz#5e9aff555a975596c03a98b59ecd103decc70c3c"
   integrity sha512-I+1sYH+NPQ3/tVqCeUSBwTE/0heyvtXqpIopUUArlBm0Kpocb8FbMa3AZ/ASKIFpN3rnEx932TTXDbt9OXsNDw==
+  dependencies:
+    "@types/estree" "*"
+    "@types/json-schema" "*"
+
+"@types/eslint@^7.2.6":
+  version "7.2.7"
+  resolved "https://registry.npm.taobao.org/@types/eslint/download/@types/eslint-7.2.7.tgz#f7ef1cf0dceab0ae6f9a976a0a9af14ab1baca26"
+  integrity sha1-9+8c8NzqsK5vmpdqCprxSrG6yiY=
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
@@ -3236,17 +3244,6 @@ eslint-config-prettier@^6.11.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-loader@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.npmjs.org/eslint-loader/-/eslint-loader-4.0.2.tgz#386a1e21bcb613b3cf2d252a3b708023ccfb41ec"
-  integrity sha512-EDpXor6lsjtTzZpLUn7KmXs02+nIjGcgees9BYjNkWra3jVq5vVa8IoCKgzT2M7dNNeoMBtaSG83Bd40N3poLw==
-  dependencies:
-    find-cache-dir "^3.3.1"
-    fs-extra "^8.1.0"
-    loader-utils "^2.0.0"
-    object-hash "^2.0.3"
-    schema-utils "^2.6.5"
-
 eslint-plugin-prettier@^3.1.4:
   version "3.3.1"
   resolved "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-3.3.1.tgz#7079cfa2497078905011e6f82e8dd8453d1371b7"
@@ -3310,6 +3307,17 @@ eslint-visitor-keys@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
+
+eslint-webpack-plugin@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.npm.taobao.org/eslint-webpack-plugin/download/eslint-webpack-plugin-2.5.2.tgz?cache=0&sync_timestamp=1613662842390&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-webpack-plugin%2Fdownload%2Feslint-webpack-plugin-2.5.2.tgz#4ee17577d6392bf72048080a1678d6237183db81"
+  integrity sha1-TuF1d9Y5K/cgSAgKFnjWI3GD24E=
+  dependencies:
+    "@types/eslint" "^7.2.6"
+    arrify "^2.0.1"
+    jest-worker "^26.6.2"
+    micromatch "^4.0.2"
+    schema-utils "^3.0.0"
 
 eslint@^7.18.0:
   version "7.19.0"
@@ -3768,15 +3776,6 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
-
-fs-extra@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
-  integrity sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==
-  dependencies:
-    graceful-fs "^4.2.0"
-    jsonfile "^4.0.0"
-    universalify "^0.1.0"
 
 fs-extra@^9.0.0, fs-extra@^9.0.1:
   version "9.1.0"
@@ -4842,13 +4841,6 @@ json5@^2.1.2:
   dependencies:
     minimist "^1.2.5"
 
-jsonfile@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
-  integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
-  optionalDependencies:
-    graceful-fs "^4.1.6"
-
 jsonfile@^6.0.1:
   version "6.1.0"
   resolved "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz#bc55b2634793c679ec6403094eb13698a6ec0aae"
@@ -5584,11 +5576,6 @@ object-copy@^0.1.0:
     copy-descriptor "^0.1.0"
     define-property "^0.2.5"
     kind-of "^3.0.3"
-
-object-hash@^2.0.3:
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/object-hash/-/object-hash-2.1.1.tgz#9447d0279b4fcf80cff3259bf66a1dc73afabe09"
-  integrity sha512-VOJmgmS+7wvXf8CjbQmimtCnEx3IAoLxI3fp2fbWehxrWBcAQFbk+vcwb6vzR0VZv/eNCJ/27j151ZTwqW/JeQ==
 
 object-inspect@^1.8.0, object-inspect@^1.9.0:
   version "1.9.0"
@@ -6640,10 +6627,10 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-raw-loader@^4.0.1:
+raw-loader@^4.0.2:
   version "4.0.2"
-  resolved "https://registry.npmjs.org/raw-loader/-/raw-loader-4.0.2.tgz#1aac6b7d1ad1501e66efdac1522c73e59a584eb6"
-  integrity sha512-ZnScIV3ag9A4wPX/ZayxL/jZH+euYb6FcUinPcgiQW0+UBtEv0O6Q3lGd3cqJ+GHH+rksEv3Pj99oxJ3u3VIKA==
+  resolved "https://registry.npm.taobao.org/raw-loader/download/raw-loader-4.0.2.tgz?cache=0&sync_timestamp=1602255313867&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fraw-loader%2Fdownload%2Fraw-loader-4.0.2.tgz#1aac6b7d1ad1501e66efdac1522c73e59a584eb6"
+  integrity sha1-GqxrfRrRUB5m79rBUixz5ZpYTrY=
   dependencies:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
@@ -7959,9 +7946,9 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.0.7:
+typescript@^4.2.3:
   version "4.2.3"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.2.3.tgz?cache=0&sync_timestamp=1615706965355&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
   integrity sha1-OQYtgBmRLUNyYpjwlJPVmASMHOM=
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
@@ -8051,11 +8038,6 @@ unist-util-stringify-position@^2.0.0:
   integrity sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==
   dependencies:
     "@types/unist" "^2.0.2"
-
-universalify@^0.1.0:
-  version "0.1.2"
-  resolved "https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
-  integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
 
 universalify@^2.0.0:
   version "2.0.0"
@@ -8232,10 +8214,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-loader@^15.9.3:
+vue-loader@^15.9.6:
   version "15.9.6"
-  resolved "https://registry.npmjs.org/vue-loader/-/vue-loader-15.9.6.tgz#f4bb9ae20c3a8370af3ecf09b8126d38ffdb6b8b"
-  integrity sha512-j0cqiLzwbeImIC6nVIby2o/ABAWhlppyL/m5oJ67R5MloP0hj/DtFgb0Zmq3J9CG7AJ+AXIvHVnJAPBvrLyuDg==
+  resolved "https://registry.npm.taobao.org/vue-loader/download/vue-loader-15.9.6.tgz#f4bb9ae20c3a8370af3ecf09b8126d38ffdb6b8b"
+  integrity sha1-9Lua4gw6g3CvPs8JuBJtOP/ba4s=
   dependencies:
     "@vue/component-compiler-utils" "^3.1.0"
     hash-sum "^1.0.2"

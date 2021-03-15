@@ -9,19 +9,20 @@
     "node_modules",
     "**/*.spec.ts"
   ],
-  // "typeRoots": [
-  //   "node_modules/@types"
-  // ],
+  "typeRoots": [
+    "node_modules/@types"
+  ],
   "compilerOptions": {
     "module": "es6", // Use the ES2015 module
     "target": "es6", // Compile to ES2015 (Babel will do the rest)
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true, // Default export references are allowed
     "esModuleInterop": true, // Callable CommonJS modules must be imported as default. Exports without default do not need * as xx anymore
     "jsx": "preserve", // Use the Babel transform
-    // "allowJs": true,
-    // "noEmit": true,
-    // "strict": true,
-    // "moduleResolution": "node",
-    // "experimentalDecorators": true
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true
   }
 }

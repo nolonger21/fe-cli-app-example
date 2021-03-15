@@ -20,6 +20,7 @@
       "ES2019.Object",
       "ScriptHost"
     ],
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true, // Default export references are allowed
     "esModuleInterop": true, // Callable CommonJS modules must be imported as default. Exports without default do not need * as xx anymore
     "jsx": "react", // Use the Babel transform

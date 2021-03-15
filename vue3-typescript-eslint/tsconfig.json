@@ -13,6 +13,7 @@
   "compilerOptions": {
     "module": "es6", // Use the ES2015 module
     "target": "es6", // Compile to ES2015 (Babel will do the rest)
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true, // Default export references are allowed
     "esModuleInterop": true, // Callable CommonJS modules must be imported as default. Exports without default do not need * as xx anymore
     "jsx": "preserve", // Use the Babel transform
