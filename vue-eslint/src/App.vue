@@ -20,7 +20,6 @@ export default {
     set.add(1)
 
     set.add(2)
-
     set.add(3)
 
     return {
@@ -29,6 +28,20 @@ export default {
     }
   },
   mounted() {},
+  // render() {
+  //   return (
+  //     <div id="app">
+  //       <div class="css-style">css</div>
+  //       <div class="less-style">less</div>
+  //       <div class="scss-style">scss</div>
+  //       <div class="stylus-style">stylus</div>
+  //       <div class="text">{this.text}</div>
+  //       <img class="image" src="./assets/vue.png" />
+  //       <div class="image bg-image" />
+  //       <img class="image svg-image" src={svgImg} />
+  //     </div>
+  //   )
+  // },
 }
 </script>
 

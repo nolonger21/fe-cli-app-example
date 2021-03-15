@@ -4,34 +4,26 @@ module.exports = ({ feConfig, chainWebpack } = {}) => {
     // Prints configurable items for the current plug-in
     // console.log(config)
     return {
-      // global: {
-      //   test: true, // Shared by all plug-ins
-      //   // https://cli.vuejs.org/zh/config/
-      //   assetsDir: '',
-      //   filenameHashing: true,
-      //   runtimeCompiler: false,
-      //   transpileDependencies: [],
-      //   productionSourceMap: true,
-      //   parallel: true,
-      //   crossorigin: undefined,
-      //   integrity: false,
-      //   css: {
-      //     extract: true,
-      //     modules: false,
-      //     sourceMap: false,
-      //     loaderOptions: {}
-      //   },
-      // },
-      // 'local:fe-cli-plugin-test': { // !important
-      //   test: true,
-      // }
-      '@etherfe/cli-plugin-eslint': {
+      global: {
+        // https://cli.vuejs.org/zh/config/
+        // assetsDir: '',
+        // filenameHashing: true,
+        // runtimeCompiler: false,
+        // transpileDependencies: [],
+        // productionSourceMap: true,
+        // parallel: true,
+        // crossorigin: undefined,
+        // integrity: false,
+        // css: {
+        //   extract: true,
+        //   modules: false,
+        //   sourceMap: false,
+        //   loaderOptions: {},
+        // },
         eslintOptions: {
           formatter: 'codeframe', // default 'stylish'
           fix: true, // save auto fix. recommended editor plug-in eslint/prettier
         },
-      },
-      '@etherfe/cli-plugin-stylelint': {
         stylelintOptions: {
           fix: true, // save auto fix. recommended editor plug-in stylelint
         },

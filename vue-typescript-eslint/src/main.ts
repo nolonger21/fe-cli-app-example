@@ -3,7 +3,7 @@ import App from './App.vue'
 
 new vue({
   el: '#app',
-  render: h => h(App),
+  render: (h) => h(App),
 })
 
 console.log(process.env.APP_1)

@@ -1,17 +1,7 @@
 <template>
-  <div id="app">
-    <div class="css-style">css</div>
-    <div class="less-style">less</div>
-    <div class="scss-style">scss</div>
-    <div class="stylus-style">stylus</div>
-    <div class="text">{{ text }}</div>
-    <img class="image" src="./assets/vue.png" />
-    <div class="image bg-image" />
-    <img class="image svg-image" :src="svgImg" />
-  </div>
 </template>
 
-<script lang="ts">
+<script lang="tsx">
 import Vue from 'vue'
 import Component from 'vue-class-component'
 import svgImg from './assets/react.svg'
@@ -27,6 +17,20 @@ export default class App extends Vue {
   svgImg = svgImg
   mounted() {
     //
+  }
+  render(){
+    return (
+      <div id="app">
+        <div className="css-style">css</div>
+        <div className="less-style">less</div>
+        <div className="scss-style">scss</div>
+        <div className="stylus-style">stylus</div>
+        <div className="text">{ Text }</div>
+        <img className="image" src="./assets/vue.png" />
+        <div className="image bg-image" />
+        <img className="image svg-image" src={svgImg} />
+      </div>
+    )
   }
 }
 </script>

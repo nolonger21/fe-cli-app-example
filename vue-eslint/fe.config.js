@@ -27,7 +27,7 @@ module.exports = ({ feConfig, chainWebpack } = {}) => {
       // }
       '@etherfe/cli-plugin-eslint': {
         eslintOptions: {
-          formatter: 'codeframe', // default 'stylish'
+          // formatter: 'codeframe', // default 'stylish'
           fix: true, // save auto fix. recommended editor plug-in eslint/prettier
         },
       },

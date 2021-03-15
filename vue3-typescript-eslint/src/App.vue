@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <div class="css-style">css</div>
-    <div class="less-style">less</div>
-    <div class="scss-style">scss</div>
-    <div class="stylus-style">stylus</div>
+    <css-text />
     <div class="text">{{ text }}</div>
     <img class="image" src="./assets/vue.png" />
     <div class="image bg-image" />
@@ -11,12 +8,16 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="tsx">
 import { defineComponent } from 'vue'
 import svgImg from './assets/react.svg'
+import cssText from './css-text'
 
 export default defineComponent({
   name: 'App',
+  components: {
+    cssText,
+  },
   setup() {
     const set = new Set()
     set.add(1)
