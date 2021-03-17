@@ -1,6 +1,3 @@
-<template>
-</template>
-
 <script lang="tsx">
 import Vue from 'vue'
 import Component from 'vue-class-component'
@@ -26,9 +23,9 @@ export default class App extends Vue {
         <div className="scss-style">scss</div>
         <div className="stylus-style">stylus</div>
         <div className="text">{ Text }</div>
-        <img className="image" src="./assets/vue.png" />
+        <img className="image" src={require("./assets/vue.png")} />
         <div className="image bg-image" />
-        <img className="image svg-image" src={svgImg} />
+        <img className="image svg-image" src={this.svgImg} />
       </div>
     )
   }
