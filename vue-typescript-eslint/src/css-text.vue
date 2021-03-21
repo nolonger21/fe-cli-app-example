@@ -1,0 +1,22 @@
+<script lang="tsx">
+import Vue, { VNode, CreateElement } from 'vue'
+
+export default class CssImage extends Vue {
+  render(h: CreateElement): VNode {
+    return (
+      <div>
+        <div class="css-style">css</div>
+        <div class="less-style">less</div>
+        <div class="scss-style">scss</div>
+        <div class="stylus-style">stylus</div>
+      </div>
+    )
+  }
+}
+</script>
+<style lang="less">
+@import './style/css.css';
+@import './style/less.less';
+@import './style/scss.scss';
+@import './style/stylus.stylus';
+</style>
