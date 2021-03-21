@@ -1,9 +1,9 @@
 <script lang="tsx">
-import Vue, { VNode, CreateElement } from 'vue'
+import Vue from 'vue'
 import Component from 'vue-class-component'
 import svgImg from './assets/react.svg'
-import cssText from './css-image'
-import cssImage from './css-image'
+import cssText from './css-image.vue'
+import cssImage from './css-image.vue'
 
 const set = new Set()
 set.add(1)
@@ -22,11 +22,11 @@ export default class App extends Vue {
   mounted() {
     //
   }
-  render(h: CreateElement): VNode {
+  render() {
     return (
       <div id="app">
         <css-text />
-        <div class="text">{{ text }}</div>
+        <div class="text">{this.text}</div>
         <css-image />
       </div>
     )
