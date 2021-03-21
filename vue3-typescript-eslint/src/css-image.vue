@@ -12,7 +12,6 @@ export default defineComponent(() => {
     </div>
   )
 })
-
 </script>
 
 <style lang="less">

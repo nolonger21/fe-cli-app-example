@@ -1,26 +1,17 @@
 <script lang="tsx">
 import Vue from 'vue'
-import { Component, Prop } from 'vue-property-decorator'
-import svgImg from './assets/react.svg'
-import cssText from './css-image.vue'
-import cssImage from './css-image.vue'
+import { Component } from 'vue-property-decorator'
+import CssText from './css-text.vue'
+import CssImage from './css-image.vue'
 
 const set = new Set()
 set.add(1)
 set.add(2)
 set.add(3)
 
-@Component({
-  components: {
-    cssText,
-    cssImage,
-  },
-})
+@Component({})
 export default class App extends Vue {
-  @Prop()
   text = 'test' + [...set].join('\n')
-
-  svgImg = svgImg
 
   mounted() {
     //
@@ -28,9 +19,9 @@ export default class App extends Vue {
   render() {
     return (
       <div id="app">
-        <css-text />
+        <CssText />
         <div class="text">{this.text}</div>
-        <css-image />
+        <CssImage />
       </div>
     )
   }

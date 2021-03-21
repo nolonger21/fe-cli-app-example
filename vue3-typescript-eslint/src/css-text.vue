@@ -11,7 +11,6 @@ export default defineComponent(() => {
     </div>
   )
 })
-
 </script>
 <style lang="less">
 @import './style/css.css';

@@ -9,7 +9,7 @@
 <script lang="tsx">
 import { defineComponent } from 'vue'
 import cssImage from './css-image.vue'
-import cssText from './css-text'
+import cssText from './css-text.vue'
 
 export default defineComponent({
   name: 'App',

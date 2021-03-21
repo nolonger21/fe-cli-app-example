@@ -1,6 +1,8 @@
 <script lang="tsx">
 import Vue from 'vue'
+import { Component } from 'vue-property-decorator'
 
+@Component({})
 export default class CssImage extends Vue {
   render() {
     return (

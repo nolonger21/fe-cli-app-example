@@ -1,7 +1,9 @@
 <script lang="tsx">
 import Vue from 'vue'
+import { Component } from 'vue-property-decorator'
 import svgImg from './assets/react.svg'
 
+@Component({})
 export default class CssImage extends Vue {
   render() {
     return (
