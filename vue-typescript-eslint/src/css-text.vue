@@ -1,8 +1,8 @@
 <script lang="tsx">
-import Vue, { VNode, CreateElement } from 'vue'
+import Vue from 'vue'
 
 export default class CssImage extends Vue {
-  render(h: CreateElement): VNode {
+  render() {
     return (
       <div>
         <div class="css-style">css</div>

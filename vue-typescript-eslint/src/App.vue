@@ -1,6 +1,6 @@
 <script lang="tsx">
 import Vue from 'vue'
-import Component from 'vue-class-component'
+import { Component, Prop } from 'vue-property-decorator';
 import svgImg from './assets/react.svg'
 import cssText from './css-image.vue'
 import cssImage from './css-image.vue'
@@ -17,8 +17,11 @@ set.add(3)
   },
 })
 export default class App extends Vue {
+  @Prop()
   text = 'test' + [...set].join('\n')
+
   svgImg = svgImg
+
   mounted() {
     //
   }

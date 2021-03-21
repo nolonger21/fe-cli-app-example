@@ -4,5 +4,8 @@
   "version": "1.0.0",
   "description": "fe-cli-service app-example",
   "author": "nolonger21",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vue-property-decorator": "^9.1.2"
+  }
 }

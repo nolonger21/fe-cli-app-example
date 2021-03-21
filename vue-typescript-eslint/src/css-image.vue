@@ -1,9 +1,9 @@
 <script lang="tsx">
-import Vue, { VNode, CreateElement } from 'vue'
+import Vue from 'vue'
 import svgImg from './assets/react.svg'
 
 export default class CssImage extends Vue {
-  render(h: CreateElement): VNode {
+  render() {
     return (
       <div>
         <img class="image" src={require('./assets/vue.png')} />
