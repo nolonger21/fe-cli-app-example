@@ -18,14 +18,14 @@ export default class App extends Vue {
   render(){
     return (
       <div id="app">
-        <div className="css-style">css</div>
-        <div className="less-style">less</div>
-        <div className="scss-style">scss</div>
-        <div className="stylus-style">stylus</div>
-        <div className="text">{ Text }</div>
-        <img className="image" src={require("./assets/vue.png")} />
-        <div className="image bg-image" />
-        <img className="image svg-image" src={this.svgImg} />
+        <div class="css-style">css</div>
+        <div class="less-style">less</div>
+        <div class="scss-style">scss</div>
+        <div class="stylus-style">stylus</div>
+        <div class="text">{ Text }</div>
+        <img class="image" src={require("./assets/vue.png")} />
+        <div class="image bg-image" />
+        <img class="image svg-image" src={this.svgImg} />
       </div>
     )
   }
