@@ -30,6 +30,17 @@ module.exports = {
 
 ```
 
+vscode - settings.json
+
+```json
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+```
+
 ### prettier
 
 ```

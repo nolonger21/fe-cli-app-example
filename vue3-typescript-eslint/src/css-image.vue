@@ -1,7 +1,14 @@
 <script lang="tsx">
 import svgImg from './assets/react.svg'
-
 import { defineComponent } from 'vue'
+
+interface name {
+  a: number
+}
+
+const a: name = {
+  a: 1,
+}
 
 export default defineComponent(() => {
   return () => (
