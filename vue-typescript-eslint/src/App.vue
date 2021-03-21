@@ -1,5 +1,5 @@
 <script lang="tsx">
-import Vue from 'vue'
+import Vue, { VNode, CreateElement } from 'vue'
 import Component from 'vue-class-component'
 import svgImg from './assets/react.svg'
 
@@ -15,15 +15,15 @@ export default class App extends Vue {
   mounted() {
     //
   }
-  render(){
+  render(h: CreateElement): VNode {
     return (
       <div id="app">
         <div class="css-style">css</div>
         <div class="less-style">less</div>
         <div class="scss-style">scss</div>
         <div class="stylus-style">stylus</div>
-        <div class="text">{ Text }</div>
-        <img class="image" src={require("./assets/vue.png")} />
+        <div class="text">{Text}</div>
+        <img class="image" src={require('./assets/vue.png')} />
         <div class="image bg-image" />
         <img class="image svg-image" src={this.svgImg} />
       </div>
