@@ -238,22 +238,22 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.4":
-  version "0.1.0-alpha.4"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.4.tgz#50df77ff30ad70181492a1ff530820a4a6e89a54"
-  integrity sha1-UN93/zCtcBgUkqH/UwggpKbomlQ=
+"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.5":
+  version "0.1.0-alpha.5"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.5.tgz?cache=0&sync_timestamp=1616320982446&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-plugin-stylelint%2Fdownload%2F%40etherfe%2Fcli-plugin-stylelint-0.1.0-alpha.5.tgz#d1ca9f8b3282d0435865b08424c72c3ec7dcbe29"
+  integrity sha1-0cqfizKC0ENYZbCEJMcsPsfcvik=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     stylelint-webpack-plugin "^2.1.1"
 
-"@etherfe/cli-plugin-typescript@^0.1.0-alpha.4":
-  version "0.1.0-alpha.4"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.4.tgz#44c5e94a019f0041d81c6a09dd4a149b47a14894"
-  integrity sha1-RMXpSgGfAEHYHGoJ3UoUm0ehSJQ=
+"@etherfe/cli-plugin-typescript@^0.1.0-alpha.5":
+  version "0.1.0-alpha.5"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.5.tgz#5c43c618d30a8beb18407ff830eb0adfc339f2e7"
+  integrity sha1-XEPGGNMKi+sYQH/4MOsK38M58uc=
   dependencies:
     "@babel/preset-typescript" "^7.13.0"
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
-    babel-loader "^8.1.0"
+    babel-loader "^8.2.2"
     cache-loader "^4.1.0"
     fork-ts-checker-webpack-plugin "^6.1.1"
     fork-ts-checker-webpack-plugin-3 "npm:fork-ts-checker-webpack-plugin@^3.1.1"
@@ -261,10 +261,10 @@
     ts-loader "^8.0.3"
     tslint "^6.1.3"
 
-"@etherfe/cli-service@^0.1.0-alpha.2":
-  version "0.1.0-alpha.2"
-  resolved "https://registry.npmjs.org/@etherfe/cli-service/-/cli-service-0.1.0-alpha.2.tgz#a17e3062e16baf9995722cbf165e06d217d5aa97"
-  integrity sha512-DdCgXZPTFxAOFdbsSvwLGQS3qFl+RiZZAVT+03CEH5ED20WXy0fiqT1GdRimg2DDUZU3YAfx7lD0WFMbDeAKnw==
+"@etherfe/cli-service@^0.1.0-alpha.3":
+  version "0.1.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-service/download/@etherfe/cli-service-0.1.0-alpha.3.tgz?cache=0&sync_timestamp=1616320986562&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-service%2Fdownload%2F%40etherfe%2Fcli-service-0.1.0-alpha.3.tgz#4f58a0a45ae7e4ceb7dc4b35cae507dbc277590a"
+  integrity sha1-T1igpFrn5M633Es1yuUH28J3WQo=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     "@intervolga/optimize-cssnano-plugin" "^1.0.6"
@@ -289,6 +289,7 @@
     lodash.defaultsdeep "^4.6.1"
     lodash.merge "^4.6.2"
     mini-css-extract-plugin "^0.10.0"
+    mini-svg-data-uri "^1.2.3"
     portfinder "^1.0.28"
     postcss-loader "^3.0.0"
     preload-webpack-plugin "^3.0.0-beta.4"
@@ -880,7 +881,7 @@ babel-code-frame@^6.22.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-loader@^8.1.0:
+babel-loader@^8.2.2:
   version "8.2.2"
   resolved "https://registry.npm.taobao.org/babel-loader/download/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
   integrity sha1-k2POhMEMmkDmx1N0jhRBtgyKC4E=
@@ -3941,6 +3942,11 @@ mini-css-extract-plugin@^0.10.0:
     normalize-url "1.9.1"
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
+
+mini-svg-data-uri@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.npm.taobao.org/mini-svg-data-uri/download/mini-svg-data-uri-1.2.3.tgz#e16baa92ad55ddaa1c2c135759129f41910bc39f"
+  integrity sha1-4Wuqkq1V3aocLBNXWRKfQZELw58=
 
 minimalistic-assert@^1.0.0:
   version "1.0.1"

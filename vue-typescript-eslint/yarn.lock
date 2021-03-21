@@ -167,7 +167,7 @@
     "@babel/types" "7.0.0-beta.35"
     lodash "^4.2.0"
 
-"@babel/helper-module-imports@^7.12.13":
+"@babel/helper-module-imports@^7.0.0", "@babel/helper-module-imports@^7.12.13":
   version "7.12.13"
   resolved "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.12.13.tgz#ec67e4404f41750463e455cc3203f6a32e93fcb0"
   integrity sha512-NGmfvRp9Rqxy0uHSSVP+SRIW1q31a7Ji10cLBcqSDUngGentY4FRiHOFZFE1CLU5eiL0oE8reH7Tg1y99TDM/g==
@@ -480,6 +480,13 @@
   integrity sha512-lY6kdGpWHvjoe2vk4WrAapEuBR69EMxZl+RoGRhrFGNYVK8mOPAW8VfbT/ZgrFbXlDNiiaxQnAtgVCZ6jv30EA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
+
+"@babel/plugin-syntax-jsx@^7.2.0":
+  version "7.12.13"
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-jsx/download/@babel/plugin-syntax-jsx-7.12.13.tgz?cache=0&sync_timestamp=1612314775704&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-syntax-jsx%2Fdownload%2F%40babel%2Fplugin-syntax-jsx-7.12.13.tgz#044fb81ebad6698fe62c478875575bcbb9b70f15"
+  integrity sha1-BE+4HrrWaY/mLEeIdVdby7m3DxU=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-syntax-logical-assignment-operators@^7.10.4":
   version "7.10.4"
@@ -984,10 +991,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@etherfe/cli-plugin-babel@^0.1.0-alpha.2":
-  version "0.1.0-alpha.2"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-babel/download/@etherfe/cli-plugin-babel-0.1.0-alpha.2.tgz#67fd2c13c497c25e35f3807887d054a264b671f3"
-  integrity sha1-Z/0sE8SXwl4184B4h9BUomS2cfM=
+"@etherfe/cli-plugin-babel@^0.1.0-alpha.3":
+  version "0.1.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-babel/download/@etherfe/cli-plugin-babel-0.1.0-alpha.3.tgz?cache=0&sync_timestamp=1616320983622&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-plugin-babel%2Fdownload%2F%40etherfe%2Fcli-plugin-babel-0.1.0-alpha.3.tgz#a6a230816f98c8c1ddf7200135784e32b9e4c020"
+  integrity sha1-pqIwgW+YyMHd9yABNXhOMrnkwCA=
   dependencies:
     "@babel/core" "^7.11.4"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
@@ -995,34 +1002,34 @@
     "@babel/plugin-proposal-object-rest-spread" "^7.11.0"
     "@babel/preset-env" "^7.11.0"
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
-    babel-loader "^8.1.0"
+    babel-loader "^8.2.2"
     babel-plugin-component "^1.1.1"
     thread-loader "^3.0.1"
 
-"@etherfe/cli-plugin-eslint@^0.1.0-alpha.4":
-  version "0.1.0-alpha.4"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-eslint/download/@etherfe/cli-plugin-eslint-0.1.0-alpha.4.tgz#b3b64c7cb806a47ec023fb6f01bc77d0560c72d5"
-  integrity sha1-s7ZMfLgGpH7AI/tvAbx30FYMctU=
+"@etherfe/cli-plugin-eslint@^0.1.0-alpha.5":
+  version "0.1.0-alpha.5"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-eslint/download/@etherfe/cli-plugin-eslint-0.1.0-alpha.5.tgz?cache=0&sync_timestamp=1616320986506&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-plugin-eslint%2Fdownload%2F%40etherfe%2Fcli-plugin-eslint-0.1.0-alpha.5.tgz#66c8c8c116268bdd420ee347e54e2116295d7c7d"
+  integrity sha1-ZsjIwRYmi91CDuNH5U4hFildfH0=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     eslint-webpack-plugin "^2.5.2"
 
-"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.4":
-  version "0.1.0-alpha.4"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.4.tgz#50df77ff30ad70181492a1ff530820a4a6e89a54"
-  integrity sha1-UN93/zCtcBgUkqH/UwggpKbomlQ=
+"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.5":
+  version "0.1.0-alpha.5"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.5.tgz?cache=0&sync_timestamp=1616320982446&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-plugin-stylelint%2Fdownload%2F%40etherfe%2Fcli-plugin-stylelint-0.1.0-alpha.5.tgz#d1ca9f8b3282d0435865b08424c72c3ec7dcbe29"
+  integrity sha1-0cqfizKC0ENYZbCEJMcsPsfcvik=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     stylelint-webpack-plugin "^2.1.1"
 
-"@etherfe/cli-plugin-typescript@^0.1.0-alpha.4":
-  version "0.1.0-alpha.4"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.4.tgz#44c5e94a019f0041d81c6a09dd4a149b47a14894"
-  integrity sha1-RMXpSgGfAEHYHGoJ3UoUm0ehSJQ=
+"@etherfe/cli-plugin-typescript@^0.1.0-alpha.5":
+  version "0.1.0-alpha.5"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.5.tgz#5c43c618d30a8beb18407ff830eb0adfc339f2e7"
+  integrity sha1-XEPGGNMKi+sYQH/4MOsK38M58uc=
   dependencies:
     "@babel/preset-typescript" "^7.13.0"
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
-    babel-loader "^8.1.0"
+    babel-loader "^8.2.2"
     cache-loader "^4.1.0"
     fork-ts-checker-webpack-plugin "^6.1.1"
     fork-ts-checker-webpack-plugin-3 "npm:fork-ts-checker-webpack-plugin@^3.1.1"
@@ -1030,22 +1037,24 @@
     ts-loader "^8.0.3"
     tslint "^6.1.3"
 
-"@etherfe/cli-plugin-vue@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-vue/download/@etherfe/cli-plugin-vue-0.1.0-alpha.3.tgz#154c38610219a62c1ece26cddc54f6252e0e6404"
-  integrity sha1-FUw4YQIZpiwezibN3FT2JS4OZAQ=
+"@etherfe/cli-plugin-vue@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-vue/download/@etherfe/cli-plugin-vue-0.1.0-alpha.4.tgz#af91888aec82f70096a28c099f1c6774f12a3586"
+  integrity sha1-r5GIiuyC9wCWoowJnxxndPEqNYY=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.2.1"
+    "@vue/babel-preset-jsx" "^1.2.4"
     babel-plugin-component "^1.1.1"
     pug "^3.0.0"
     pug-plain-loader "^1.0.0"
     raw-loader "^4.0.2"
     vue-loader "^15.9.6"
 
-"@etherfe/cli-service@^0.1.0-alpha.2":
-  version "0.1.0-alpha.2"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-service/download/@etherfe/cli-service-0.1.0-alpha.2.tgz#a17e3062e16baf9995722cbf165e06d217d5aa97"
-  integrity sha1-oX4wYuFrr5mVciy/Fl4G0hfVqpc=
+"@etherfe/cli-service@^0.1.0-alpha.3":
+  version "0.1.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-service/download/@etherfe/cli-service-0.1.0-alpha.3.tgz?cache=0&sync_timestamp=1616320986562&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-service%2Fdownload%2F%40etherfe%2Fcli-service-0.1.0-alpha.3.tgz#4f58a0a45ae7e4ceb7dc4b35cae507dbc277590a"
+  integrity sha1-T1igpFrn5M633Es1yuUH28J3WQo=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     "@intervolga/optimize-cssnano-plugin" "^1.0.6"
@@ -1070,6 +1079,7 @@
     lodash.defaultsdeep "^4.6.1"
     lodash.merge "^4.6.2"
     mini-css-extract-plugin "^0.10.0"
+    mini-svg-data-uri "^1.2.3"
     portfinder "^1.0.28"
     postcss-loader "^3.0.0"
     preload-webpack-plugin "^3.0.0-beta.4"
@@ -1399,6 +1409,86 @@
   dependencies:
     "@typescript-eslint/types" "4.17.0"
     eslint-visitor-keys "^2.0.0"
+
+"@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npm.taobao.org/@vue/babel-helper-vue-jsx-merge-props/download/@vue/babel-helper-vue-jsx-merge-props-1.2.1.tgz#31624a7a505fb14da1d58023725a4c5f270e6a81"
+  integrity sha1-MWJKelBfsU2h1YAjclpMXycOaoE=
+
+"@vue/babel-plugin-transform-vue-jsx@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npm.taobao.org/@vue/babel-plugin-transform-vue-jsx/download/@vue/babel-plugin-transform-vue-jsx-1.2.1.tgz?cache=0&sync_timestamp=1602851121024&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-plugin-transform-vue-jsx%2Fdownload%2F%40vue%2Fbabel-plugin-transform-vue-jsx-1.2.1.tgz#646046c652c2f0242727f34519d917b064041ed7"
+  integrity sha1-ZGBGxlLC8CQnJ/NFGdkXsGQEHtc=
+  dependencies:
+    "@babel/helper-module-imports" "^7.0.0"
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.2.1"
+    html-tags "^2.0.0"
+    lodash.kebabcase "^4.1.1"
+    svg-tags "^1.0.0"
+
+"@vue/babel-preset-jsx@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.npm.taobao.org/@vue/babel-preset-jsx/download/@vue/babel-preset-jsx-1.2.4.tgz#92fea79db6f13b01e80d3a0099e2924bdcbe4e87"
+  integrity sha1-kv6nnbbxOwHoDToAmeKSS9y+Toc=
+  dependencies:
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.2.1"
+    "@vue/babel-plugin-transform-vue-jsx" "^1.2.1"
+    "@vue/babel-sugar-composition-api-inject-h" "^1.2.1"
+    "@vue/babel-sugar-composition-api-render-instance" "^1.2.4"
+    "@vue/babel-sugar-functional-vue" "^1.2.2"
+    "@vue/babel-sugar-inject-h" "^1.2.2"
+    "@vue/babel-sugar-v-model" "^1.2.3"
+    "@vue/babel-sugar-v-on" "^1.2.3"
+
+"@vue/babel-sugar-composition-api-inject-h@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-composition-api-inject-h/download/@vue/babel-sugar-composition-api-inject-h-1.2.1.tgz#05d6e0c432710e37582b2be9a6049b689b6f03eb"
+  integrity sha1-BdbgxDJxDjdYKyvppgSbaJtvA+s=
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+
+"@vue/babel-sugar-composition-api-render-instance@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-composition-api-render-instance/download/@vue/babel-sugar-composition-api-render-instance-1.2.4.tgz#e4cbc6997c344fac271785ad7a29325c51d68d19"
+  integrity sha1-5MvGmXw0T6wnF4WteikyXFHWjRk=
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+
+"@vue/babel-sugar-functional-vue@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-functional-vue/download/@vue/babel-sugar-functional-vue-1.2.2.tgz#267a9ac8d787c96edbf03ce3f392c49da9bd2658"
+  integrity sha1-JnqayNeHyW7b8Dzj85LEnam9Jlg=
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+
+"@vue/babel-sugar-inject-h@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-inject-h/download/@vue/babel-sugar-inject-h-1.2.2.tgz#d738d3c893367ec8491dcbb669b000919293e3aa"
+  integrity sha1-1zjTyJM2fshJHcu2abAAkZKT46o=
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+
+"@vue/babel-sugar-v-model@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-v-model/download/@vue/babel-sugar-v-model-1.2.3.tgz#fa1f29ba51ebf0aa1a6c35fa66d539bc459a18f2"
+  integrity sha1-+h8pulHr8KoabDX6ZtU5vEWaGPI=
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.2.1"
+    "@vue/babel-plugin-transform-vue-jsx" "^1.2.1"
+    camelcase "^5.0.0"
+    html-tags "^2.0.0"
+    svg-tags "^1.0.0"
+
+"@vue/babel-sugar-v-on@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-v-on/download/@vue/babel-sugar-v-on-1.2.3.tgz#342367178586a69f392f04bfba32021d02913ada"
+  integrity sha1-NCNnF4WGpp85LwS/ujICHQKROto=
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+    "@vue/babel-plugin-transform-vue-jsx" "^1.2.1"
+    camelcase "^5.0.0"
 
 "@vue/component-compiler-utils@^3.1.0":
   version "3.2.0"
@@ -1851,10 +1941,10 @@ babel-eslint@^10.1.0:
     eslint-visitor-keys "^1.0.0"
     resolve "^1.12.0"
 
-babel-loader@^8.1.0:
+babel-loader@^8.2.2:
   version "8.2.2"
-  resolved "https://registry.npmjs.org/babel-loader/-/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
-  integrity sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g==
+  resolved "https://registry.npm.taobao.org/babel-loader/download/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
+  integrity sha1-k2POhMEMmkDmx1N0jhRBtgyKC4E=
   dependencies:
     find-cache-dir "^3.3.1"
     loader-utils "^1.4.0"
@@ -2172,10 +2262,10 @@ camelcase-keys@^6.2.2:
     map-obj "^4.0.0"
     quick-lru "^4.0.1"
 
-camelcase@^5.3.1:
+camelcase@^5.0.0, camelcase@^5.3.1:
   version "5.3.1"
-  resolved "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
-  integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
+  resolved "https://registry.npm.taobao.org/camelcase/download/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
+  integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
 
 camelcase@^6.0.0:
   version "6.2.0"
@@ -4125,6 +4215,11 @@ html-minifier-terser@^5.0.1:
     relateurl "^0.2.7"
     terser "^4.6.3"
 
+html-tags@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/html-tags/download/html-tags-2.0.0.tgz#10b30a386085f43cede353cc8fa7cb0deeea668b"
+  integrity sha1-ELMKOGCF9Dzt41PMj6fLDe7qZos=
+
 html-tags@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/html-tags/-/html-tags-3.1.0.tgz#7b5e6f7e665e9fb41f30007ed9e0d41e97fb2140"
@@ -4991,6 +5086,11 @@ lodash.defaultsdeep@^4.6.1:
   resolved "https://registry.npmjs.org/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
   integrity sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==
 
+lodash.kebabcase@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npm.taobao.org/lodash.kebabcase/download/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
+  integrity sha1-hImxyw0p/4gZXM7KRI/21swpXDY=
+
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -5293,6 +5393,11 @@ mini-css-extract-plugin@^0.10.0:
     normalize-url "1.9.1"
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
+
+mini-svg-data-uri@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.npm.taobao.org/mini-svg-data-uri/download/mini-svg-data-uri-1.2.3.tgz#e16baa92ad55ddaa1c2c135759129f41910bc39f"
+  integrity sha1-4Wuqkq1V3aocLBNXWRKfQZELw58=
 
 minimalistic-assert@^1.0.0:
   version "1.0.1"
@@ -8191,6 +8296,11 @@ void-elements@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/void-elements/-/void-elements-3.1.0.tgz#614f7fbf8d801f0bb5f0661f5b2f5785750e4f09"
   integrity sha1-YU9/v42AHwu18GYfWy9XhXUOTwk=
+
+vue-class-component@^7.2.6:
+  version "7.2.6"
+  resolved "https://registry.npm.taobao.org/vue-class-component/download/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
+  integrity sha1-hHHgN7jkdi9aRkaG4Z5a/HCFAuQ=
 
 vue-eslint-parser@^7.1.0, vue-eslint-parser@^7.4.1:
   version "7.4.1"

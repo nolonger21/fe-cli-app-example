@@ -1,6 +1,6 @@
 <script lang="tsx">
 import Vue from 'vue'
-import { Component, Prop } from 'vue-property-decorator';
+import { Component, Prop } from 'vue-property-decorator'
 import svgImg from './assets/react.svg'
 import cssText from './css-image.vue'
 import cssImage from './css-image.vue'
