@@ -238,18 +238,18 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.5":
-  version "0.1.0-alpha.5"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.5.tgz?cache=0&sync_timestamp=1616320982446&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-plugin-stylelint%2Fdownload%2F%40etherfe%2Fcli-plugin-stylelint-0.1.0-alpha.5.tgz#d1ca9f8b3282d0435865b08424c72c3ec7dcbe29"
-  integrity sha1-0cqfizKC0ENYZbCEJMcsPsfcvik=
+"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.6":
+  version "0.1.0-alpha.6"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.6.tgz#87ecc94dfce36d8bfcf05dbfcd543d53b0bf6189"
+  integrity sha1-h+zJTfzjbYv88F2/zVQ9U7C/YYk=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     stylelint-webpack-plugin "^2.1.1"
 
-"@etherfe/cli-plugin-typescript@^0.1.0-alpha.5":
-  version "0.1.0-alpha.5"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.5.tgz#5c43c618d30a8beb18407ff830eb0adfc339f2e7"
-  integrity sha1-XEPGGNMKi+sYQH/4MOsK38M58uc=
+"@etherfe/cli-plugin-typescript@^0.1.0-alpha.6":
+  version "0.1.0-alpha.6"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.6.tgz#d333de68e5ddafac94d67b620ba9f1fcda6c5f03"
+  integrity sha1-0zPeaOXdr6yU1ntiC6nx/NpsXwM=
   dependencies:
     "@babel/preset-typescript" "^7.13.0"
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
@@ -261,10 +261,10 @@
     ts-loader "^8.0.3"
     tslint "^6.1.3"
 
-"@etherfe/cli-service@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-service/download/@etherfe/cli-service-0.1.0-alpha.3.tgz?cache=0&sync_timestamp=1616320986562&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-service%2Fdownload%2F%40etherfe%2Fcli-service-0.1.0-alpha.3.tgz#4f58a0a45ae7e4ceb7dc4b35cae507dbc277590a"
-  integrity sha1-T1igpFrn5M633Es1yuUH28J3WQo=
+"@etherfe/cli-service@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-service/download/@etherfe/cli-service-0.1.0-alpha.4.tgz#fe2fed58526b1e14e16668a4718ca587223c08ef"
+  integrity sha1-/i/tWFJrHhThZmikcYylhyI8CO8=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     "@intervolga/optimize-cssnano-plugin" "^1.0.6"
@@ -326,15 +326,15 @@
     semver "^7.3.2"
     strip-ansi "^6.0.0"
 
-"@etherfe/stylelint-config@^0.1.0-alpha.2":
-  version "0.1.0-alpha.2"
-  resolved "https://registry.npmjs.org/@etherfe/stylelint-config/-/stylelint-config-0.1.0-alpha.2.tgz#a83f17b2d6787c62beff3e9132f8203e2377d833"
-  integrity sha512-qYA8uY1ioC60DjWhuloRTG0rR81eMBAs/SG2/waf911jyVHaXN7FtYnWDMz5abf0ENjWgTigrRwaqG56Nsdufw==
+"@etherfe/stylelint-config@^0.1.0-alpha.3":
+  version "0.1.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@etherfe/stylelint-config/download/@etherfe/stylelint-config-0.1.0-alpha.3.tgz#461c3c26f8ab230414520ca21060fb8a95751859"
+  integrity sha1-Rhw8JvirIwQUUgyiEGD7ipV1GFk=
   dependencies:
     stylelint-config-prettier "^8.0.2"
     stylelint-config-standard "^20.0.0"
     stylelint-order "^4.1.0"
-    stylelint-prettier "^1.1.2"
+    stylelint-prettier "^1.2.0"
 
 "@intervolga/optimize-cssnano-plugin@^1.0.6":
   version "1.0.6"
@@ -5945,7 +5945,7 @@ stylelint-order@^4.1.0:
     postcss "^7.0.31"
     postcss-sorting "^5.0.1"
 
-stylelint-prettier@^1.1.2:
+stylelint-prettier@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/stylelint-prettier/download/stylelint-prettier-1.2.0.tgz#a133d75c794ba820ee47136fc4bf8c72ea185427"
   integrity sha1-oTPXXHlLqCDuRxNvxL+McuoYVCc=

@@ -955,10 +955,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@etherfe/cli-plugin-babel@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-babel/download/@etherfe/cli-plugin-babel-0.1.0-alpha.3.tgz?cache=0&sync_timestamp=1616320983622&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-plugin-babel%2Fdownload%2F%40etherfe%2Fcli-plugin-babel-0.1.0-alpha.3.tgz#a6a230816f98c8c1ddf7200135784e32b9e4c020"
-  integrity sha1-pqIwgW+YyMHd9yABNXhOMrnkwCA=
+"@etherfe/cli-plugin-babel@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-babel/download/@etherfe/cli-plugin-babel-0.1.0-alpha.4.tgz#c2959266a1e51d09a75ed2b01912d2bd4ab0d3bd"
+  integrity sha1-wpWSZqHlHQmnXtKwGRLSvUqw070=
   dependencies:
     "@babel/core" "^7.11.4"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
@@ -970,10 +970,10 @@
     babel-plugin-component "^1.1.1"
     thread-loader "^3.0.1"
 
-"@etherfe/cli-plugin-eslint@^0.1.0-alpha.5":
-  version "0.1.0-alpha.5"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-eslint/download/@etherfe/cli-plugin-eslint-0.1.0-alpha.5.tgz?cache=0&sync_timestamp=1616320986506&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-plugin-eslint%2Fdownload%2F%40etherfe%2Fcli-plugin-eslint-0.1.0-alpha.5.tgz#66c8c8c116268bdd420ee347e54e2116295d7c7d"
-  integrity sha1-ZsjIwRYmi91CDuNH5U4hFildfH0=
+"@etherfe/cli-plugin-eslint@^0.1.0-alpha.6":
+  version "0.1.0-alpha.6"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-eslint/download/@etherfe/cli-plugin-eslint-0.1.0-alpha.6.tgz#2d213e9e710389b6b996ea21b74ba8d8d2e0adbd"
+  integrity sha1-LSE+nnEDiba5luoht0uo2NLgrb0=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     eslint-webpack-plugin "^2.5.2"
@@ -985,18 +985,18 @@
   dependencies:
     "@babel/preset-react" "^7.12.13"
 
-"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.5":
-  version "0.1.0-alpha.5"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.5.tgz?cache=0&sync_timestamp=1616320982446&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-plugin-stylelint%2Fdownload%2F%40etherfe%2Fcli-plugin-stylelint-0.1.0-alpha.5.tgz#d1ca9f8b3282d0435865b08424c72c3ec7dcbe29"
-  integrity sha1-0cqfizKC0ENYZbCEJMcsPsfcvik=
+"@etherfe/cli-plugin-stylelint@^0.1.0-alpha.6":
+  version "0.1.0-alpha.6"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-stylelint/download/@etherfe/cli-plugin-stylelint-0.1.0-alpha.6.tgz#87ecc94dfce36d8bfcf05dbfcd543d53b0bf6189"
+  integrity sha1-h+zJTfzjbYv88F2/zVQ9U7C/YYk=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     stylelint-webpack-plugin "^2.1.1"
 
-"@etherfe/cli-plugin-typescript@^0.1.0-alpha.5":
-  version "0.1.0-alpha.5"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.5.tgz#5c43c618d30a8beb18407ff830eb0adfc339f2e7"
-  integrity sha1-XEPGGNMKi+sYQH/4MOsK38M58uc=
+"@etherfe/cli-plugin-typescript@^0.1.0-alpha.6":
+  version "0.1.0-alpha.6"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-plugin-typescript/download/@etherfe/cli-plugin-typescript-0.1.0-alpha.6.tgz#d333de68e5ddafac94d67b620ba9f1fcda6c5f03"
+  integrity sha1-0zPeaOXdr6yU1ntiC6nx/NpsXwM=
   dependencies:
     "@babel/preset-typescript" "^7.13.0"
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
@@ -1008,10 +1008,10 @@
     ts-loader "^8.0.3"
     tslint "^6.1.3"
 
-"@etherfe/cli-service@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.npm.taobao.org/@etherfe/cli-service/download/@etherfe/cli-service-0.1.0-alpha.3.tgz?cache=0&sync_timestamp=1616320986562&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40etherfe%2Fcli-service%2Fdownload%2F%40etherfe%2Fcli-service-0.1.0-alpha.3.tgz#4f58a0a45ae7e4ceb7dc4b35cae507dbc277590a"
-  integrity sha1-T1igpFrn5M633Es1yuUH28J3WQo=
+"@etherfe/cli-service@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@etherfe/cli-service/download/@etherfe/cli-service-0.1.0-alpha.4.tgz#fe2fed58526b1e14e16668a4718ca587223c08ef"
+  integrity sha1-/i/tWFJrHhThZmikcYylhyI8CO8=
   dependencies:
     "@etherfe/cli-utils" "^0.1.0-alpha.2"
     "@intervolga/optimize-cssnano-plugin" "^1.0.6"
@@ -1073,30 +1073,30 @@
     semver "^7.3.2"
     strip-ansi "^6.0.0"
 
-"@etherfe/eslint-plugin@^0.1.0-alpha.2":
-  version "0.1.0-alpha.2"
-  resolved "https://registry.npm.taobao.org/@etherfe/eslint-plugin/download/@etherfe/eslint-plugin-0.1.0-alpha.2.tgz#59bfecc726e4db4d970e46cae434e20569f1029c"
-  integrity sha1-Wb/sxybk202XDkbK5DTiBWnxApw=
+"@etherfe/eslint-plugin@^0.1.0-alpha.3":
+  version "0.1.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@etherfe/eslint-plugin/download/@etherfe/eslint-plugin-0.1.0-alpha.3.tgz#e0d389b024495606774fb9be3cb8f7ccf0be44e9"
+  integrity sha1-4NOJsCRJVgZ3T7m+PLj3zPC+ROk=
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.15.2"
-    "@typescript-eslint/parser" "^3.10.1"
+    "@typescript-eslint/eslint-plugin" "^4.18.0"
+    "@typescript-eslint/parser" "^4.18.0"
     babel-eslint "^10.1.0"
-    eslint-config-prettier "^6.11.0"
-    eslint-plugin-prettier "^3.1.4"
-    eslint-plugin-react "^7.20.6"
-    eslint-plugin-react-hooks "^4.1.0"
-    eslint-plugin-vue "^7.0.0-beta.3"
-    vue-eslint-parser "^7.1.0"
+    eslint-config-prettier "^6.15.0"
+    eslint-plugin-prettier "^3.3.1"
+    eslint-plugin-react "^7.22.0"
+    eslint-plugin-react-hooks "^4.2.0"
+    eslint-plugin-vue "^7.7.0"
+    vue-eslint-parser "^7.6.0"
 
-"@etherfe/stylelint-config@^0.1.0-alpha.2":
-  version "0.1.0-alpha.2"
-  resolved "https://registry.npm.taobao.org/@etherfe/stylelint-config/download/@etherfe/stylelint-config-0.1.0-alpha.2.tgz#a83f17b2d6787c62beff3e9132f8203e2377d833"
-  integrity sha1-qD8XstZ4fGK+/z6RMvggPiN32DM=
+"@etherfe/stylelint-config@^0.1.0-alpha.3":
+  version "0.1.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@etherfe/stylelint-config/download/@etherfe/stylelint-config-0.1.0-alpha.3.tgz#461c3c26f8ab230414520ca21060fb8a95751859"
+  integrity sha1-Rhw8JvirIwQUUgyiEGD7ipV1GFk=
   dependencies:
     stylelint-config-prettier "^8.0.2"
     stylelint-config-standard "^20.0.0"
     stylelint-order "^4.1.0"
-    stylelint-prettier "^1.1.2"
+    stylelint-prettier "^1.2.0"
 
 "@intervolga/optimize-cssnano-plugin@^1.0.6":
   version "1.0.6"
@@ -1168,11 +1168,6 @@
   dependencies:
     "@types/eslint" "*"
     "@types/estree" "*"
-
-"@types/eslint-visitor-keys@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@types/eslint-visitor-keys/download/@types/eslint-visitor-keys-1.0.0.tgz?cache=0&sync_timestamp=1613378648873&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Feslint-visitor-keys%2Fdownload%2F%40types%2Feslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
-  integrity sha1-HuMNeVRMqE1o1LPNsK9PIFZj3S0=
 
 "@types/eslint@*", "@types/eslint@^7.2.6":
   version "7.2.7"
@@ -1272,13 +1267,13 @@
   resolved "https://registry.npm.taobao.org/@types/unist/download/@types/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
   integrity sha1-nAiGeYdvN061mD8VDUeHqm+zLX4=
 
-"@typescript-eslint/eslint-plugin@^4.15.2":
-  version "4.17.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-4.17.0.tgz#6f856eca4e6a52ce9cf127dfd349096ad936aa2d"
-  integrity sha1-b4Vuyk5qUs6c8Sff00kJatk2qi0=
+"@typescript-eslint/eslint-plugin@^4.18.0":
+  version "4.18.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-4.18.0.tgz?cache=0&sync_timestamp=1616360952899&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Feslint-plugin%2Fdownload%2F%40typescript-eslint%2Feslint-plugin-4.18.0.tgz#50fbce93211b5b690895d20ebec6fe8db48af1f6"
+  integrity sha1-UPvOkyEbW2kIldIOvsb+jbSK8fY=
   dependencies:
-    "@typescript-eslint/experimental-utils" "4.17.0"
-    "@typescript-eslint/scope-manager" "4.17.0"
+    "@typescript-eslint/experimental-utils" "4.18.0"
+    "@typescript-eslint/scope-manager" "4.18.0"
     debug "^4.1.1"
     functional-red-black-tree "^1.0.1"
     lodash "^4.17.15"
@@ -1286,98 +1281,60 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@typescript-eslint/experimental-utils@3.10.1":
-  version "3.10.1"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-3.10.1.tgz#e179ffc81a80ebcae2ea04e0332f8b251345a686"
-  integrity sha1-4Xn/yBqA68ri6gTgMy+LJRNFpoY=
+"@typescript-eslint/experimental-utils@4.18.0":
+  version "4.18.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-4.18.0.tgz?cache=0&sync_timestamp=1616360950015&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Fexperimental-utils%2Fdownload%2F%40typescript-eslint%2Fexperimental-utils-4.18.0.tgz#ed6c955b940334132b17100d2917449b99a91314"
+  integrity sha1-7WyVW5QDNBMrFxANKRdEm5mpExQ=
   dependencies:
     "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/types" "3.10.1"
-    "@typescript-eslint/typescript-estree" "3.10.1"
+    "@typescript-eslint/scope-manager" "4.18.0"
+    "@typescript-eslint/types" "4.18.0"
+    "@typescript-eslint/typescript-estree" "4.18.0"
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
-"@typescript-eslint/experimental-utils@4.17.0":
-  version "4.17.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-4.17.0.tgz#762c44aaa1a6a3c05b6d63a8648fb89b89f84c80"
-  integrity sha1-dixEqqGmo8BbbWOoZI+4m4n4TIA=
+"@typescript-eslint/parser@^4.18.0":
+  version "4.18.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/parser/download/@typescript-eslint/parser-4.18.0.tgz?cache=0&sync_timestamp=1616360951052&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Fparser%2Fdownload%2F%40typescript-eslint%2Fparser-4.18.0.tgz#a211edb14a69fc5177054bec04c95b185b4dde21"
+  integrity sha1-ohHtsUpp/FF3BUvsBMlbGFtN3iE=
   dependencies:
-    "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/scope-manager" "4.17.0"
-    "@typescript-eslint/types" "4.17.0"
-    "@typescript-eslint/typescript-estree" "4.17.0"
-    eslint-scope "^5.0.0"
-    eslint-utils "^2.0.0"
-
-"@typescript-eslint/parser@^3.10.1":
-  version "3.10.1"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/parser/download/@typescript-eslint/parser-3.10.1.tgz#1883858e83e8b442627e1ac6f408925211155467"
-  integrity sha1-GIOFjoPotEJifhrG9AiSUhEVVGc=
-  dependencies:
-    "@types/eslint-visitor-keys" "^1.0.0"
-    "@typescript-eslint/experimental-utils" "3.10.1"
-    "@typescript-eslint/types" "3.10.1"
-    "@typescript-eslint/typescript-estree" "3.10.1"
-    eslint-visitor-keys "^1.1.0"
-
-"@typescript-eslint/scope-manager@4.17.0":
-  version "4.17.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/scope-manager/download/@typescript-eslint/scope-manager-4.17.0.tgz#f4edf94eff3b52a863180f7f89581bf963e3d37d"
-  integrity sha1-9O35Tv87UqhjGA9/iVgb+WPj030=
-  dependencies:
-    "@typescript-eslint/types" "4.17.0"
-    "@typescript-eslint/visitor-keys" "4.17.0"
-
-"@typescript-eslint/types@3.10.1":
-  version "3.10.1"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/types/download/@typescript-eslint/types-3.10.1.tgz#1d7463fa7c32d8a23ab508a803ca2fe26e758727"
-  integrity sha1-HXRj+nwy2KI6tQioA8ov4m51hyc=
-
-"@typescript-eslint/types@4.17.0":
-  version "4.17.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/types/download/@typescript-eslint/types-4.17.0.tgz#f57d8fc7f31b348db946498a43050083d25f40ad"
-  integrity sha1-9X2Px/MbNI25RkmKQwUAg9JfQK0=
-
-"@typescript-eslint/typescript-estree@3.10.1":
-  version "3.10.1"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/typescript-estree/download/@typescript-eslint/typescript-estree-3.10.1.tgz#fd0061cc38add4fad45136d654408569f365b853"
-  integrity sha1-/QBhzDit1PrUUTbWVECFafNluFM=
-  dependencies:
-    "@typescript-eslint/types" "3.10.1"
-    "@typescript-eslint/visitor-keys" "3.10.1"
+    "@typescript-eslint/scope-manager" "4.18.0"
+    "@typescript-eslint/types" "4.18.0"
+    "@typescript-eslint/typescript-estree" "4.18.0"
     debug "^4.1.1"
-    glob "^7.1.6"
-    is-glob "^4.0.1"
-    lodash "^4.17.15"
-    semver "^7.3.2"
-    tsutils "^3.17.1"
 
-"@typescript-eslint/typescript-estree@4.17.0":
-  version "4.17.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/typescript-estree/download/@typescript-eslint/typescript-estree-4.17.0.tgz#b835d152804f0972b80dbda92477f9070a72ded1"
-  integrity sha1-uDXRUoBPCXK4Db2pJHf5Bwpy3tE=
+"@typescript-eslint/scope-manager@4.18.0":
+  version "4.18.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/scope-manager/download/@typescript-eslint/scope-manager-4.18.0.tgz?cache=0&sync_timestamp=1616360959299&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Fscope-manager%2Fdownload%2F%40typescript-eslint%2Fscope-manager-4.18.0.tgz#d75b55234c35d2ff6ac945758d6d9e53be84a427"
+  integrity sha1-11tVI0w10v9qyUV1jW2eU76EpCc=
   dependencies:
-    "@typescript-eslint/types" "4.17.0"
-    "@typescript-eslint/visitor-keys" "4.17.0"
+    "@typescript-eslint/types" "4.18.0"
+    "@typescript-eslint/visitor-keys" "4.18.0"
+
+"@typescript-eslint/types@4.18.0":
+  version "4.18.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/types/download/@typescript-eslint/types-4.18.0.tgz?cache=0&sync_timestamp=1616360954123&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Ftypes%2Fdownload%2F%40typescript-eslint%2Ftypes-4.18.0.tgz#bebe323f81f2a7e2e320fac9415e60856267584a"
+  integrity sha1-vr4yP4Hyp+LjIPrJQV5ghWJnWEo=
+
+"@typescript-eslint/typescript-estree@4.18.0":
+  version "4.18.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/typescript-estree/download/@typescript-eslint/typescript-estree-4.18.0.tgz?cache=0&sync_timestamp=1616360949029&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Ftypescript-estree%2Fdownload%2F%40typescript-eslint%2Ftypescript-estree-4.18.0.tgz#756d3e61da8c16ab99185532c44872f4cd5538cb"
+  integrity sha1-dW0+YdqMFquZGFUyxEhy9M1VOMs=
+  dependencies:
+    "@typescript-eslint/types" "4.18.0"
+    "@typescript-eslint/visitor-keys" "4.18.0"
     debug "^4.1.1"
     globby "^11.0.1"
     is-glob "^4.0.1"
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@typescript-eslint/visitor-keys@3.10.1":
-  version "3.10.1"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/visitor-keys/download/@typescript-eslint/visitor-keys-3.10.1.tgz?cache=0&sync_timestamp=1615505263656&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Fvisitor-keys%2Fdownload%2F%40typescript-eslint%2Fvisitor-keys-3.10.1.tgz#cd4274773e3eb63b2e870ac602274487ecd1e931"
-  integrity sha1-zUJ0dz4+tjsuhwrGAidEh+zR6TE=
+"@typescript-eslint/visitor-keys@4.18.0":
+  version "4.18.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/visitor-keys/download/@typescript-eslint/visitor-keys-4.18.0.tgz?cache=0&sync_timestamp=1616360949470&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Fvisitor-keys%2Fdownload%2F%40typescript-eslint%2Fvisitor-keys-4.18.0.tgz#4e6fe2a175ee33418318a029610845a81e2ff7b6"
+  integrity sha1-Tm/ioXXuM0GDGKApYQhFqB4v97Y=
   dependencies:
-    eslint-visitor-keys "^1.1.0"
-
-"@typescript-eslint/visitor-keys@4.17.0":
-  version "4.17.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/visitor-keys/download/@typescript-eslint/visitor-keys-4.17.0.tgz?cache=0&sync_timestamp=1615505263656&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Fvisitor-keys%2Fdownload%2F%40typescript-eslint%2Fvisitor-keys-4.17.0.tgz#9c304cfd20287c14a31d573195a709111849b14d"
-  integrity sha1-nDBM/SAofBSjHVcxlacJERhJsU0=
-  dependencies:
-    "@typescript-eslint/types" "4.17.0"
+    "@typescript-eslint/types" "4.18.0"
     eslint-visitor-keys "^2.0.0"
 
 "@webassemblyjs/ast@1.11.0":
@@ -3145,26 +3102,26 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@^6.11.0:
+eslint-config-prettier@^6.15.0:
   version "6.15.0"
-  resolved "https://registry.npm.taobao.org/eslint-config-prettier/download/eslint-config-prettier-6.15.0.tgz?cache=0&sync_timestamp=1614187239149&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-config-prettier%2Fdownload%2Feslint-config-prettier-6.15.0.tgz#7f93f6cb7d45a92f1537a70ecc06366e1ac6fed9"
+  resolved "https://registry.npm.taobao.org/eslint-config-prettier/download/eslint-config-prettier-6.15.0.tgz#7f93f6cb7d45a92f1537a70ecc06366e1ac6fed9"
   integrity sha1-f5P2y31FqS8VN6cOzAY2bhrG/tk=
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-plugin-prettier@^3.1.4:
+eslint-plugin-prettier@^3.3.1:
   version "3.3.1"
   resolved "https://registry.npm.taobao.org/eslint-plugin-prettier/download/eslint-plugin-prettier-3.3.1.tgz#7079cfa2497078905011e6f82e8dd8453d1371b7"
   integrity sha1-cHnPoklweJBQEeb4Lo3YRT0Tcbc=
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react-hooks@^4.1.0:
+eslint-plugin-react-hooks@^4.2.0:
   version "4.2.0"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-react-hooks/download/eslint-plugin-react-hooks-4.2.0.tgz?cache=0&sync_timestamp=1615565824918&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-plugin-react-hooks%2Fdownload%2Feslint-plugin-react-hooks-4.2.0.tgz#8c229c268d468956334c943bb45fc860280f5556"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-react-hooks/download/eslint-plugin-react-hooks-4.2.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-plugin-react-hooks%2Fdownload%2Feslint-plugin-react-hooks-4.2.0.tgz#8c229c268d468956334c943bb45fc860280f5556"
   integrity sha1-jCKcJo1GiVYzTJQ7tF/IYCgPVVY=
 
-eslint-plugin-react@^7.20.6:
+eslint-plugin-react@^7.22.0:
   version "7.22.0"
   resolved "https://registry.npm.taobao.org/eslint-plugin-react/download/eslint-plugin-react-7.22.0.tgz#3d1c542d1d3169c45421c1215d9470e341707269"
   integrity sha1-PRxULR0xacRUIcEhXZRw40Fwcmk=
@@ -3181,7 +3138,7 @@ eslint-plugin-react@^7.20.6:
     resolve "^1.18.1"
     string.prototype.matchall "^4.0.2"
 
-eslint-plugin-vue@^7.0.0-beta.3:
+eslint-plugin-vue@^7.7.0:
   version "7.7.0"
   resolved "https://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-7.7.0.tgz#a90df4595e670821bf243bd2750ededdb74948b8"
   integrity sha1-qQ30WV5nCCG/JDvSdQ7e3bdJSLg=
@@ -7280,7 +7237,7 @@ stylelint-order@^4.1.0:
     postcss "^7.0.31"
     postcss-sorting "^5.0.1"
 
-stylelint-prettier@^1.1.2:
+stylelint-prettier@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/stylelint-prettier/download/stylelint-prettier-1.2.0.tgz#a133d75c794ba820ee47136fc4bf8c72ea185427"
   integrity sha1-oTPXXHlLqCDuRxNvxL+McuoYVCc=
@@ -7949,7 +7906,7 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vue-eslint-parser@^7.1.0, vue-eslint-parser@^7.6.0:
+vue-eslint-parser@^7.6.0:
   version "7.6.0"
   resolved "https://registry.npm.taobao.org/vue-eslint-parser/download/vue-eslint-parser-7.6.0.tgz?cache=0&sync_timestamp=1614679548045&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-eslint-parser%2Fdownload%2Fvue-eslint-parser-7.6.0.tgz#01ea1a2932f581ff244336565d712801f8f72561"
   integrity sha1-AeoaKTL1gf8kQzZWXXEoAfj3JWE=
