@@ -23,6 +23,8 @@ export default defineComponent({
     set.add(2)
     set.add(3)
 
+    if (true) {
+    }
     const text = 'test' + [...set].join('\n')
     return { text }
   },

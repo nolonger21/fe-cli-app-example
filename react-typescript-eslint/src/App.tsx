@@ -2,9 +2,11 @@ import React, { useMemo } from 'react'
 import { useState, useEffect } from 'react'
 import svgImg from './assets/react.svg'
 import './App.less'
+import Button from 'antd/es/button'
+import 'antd/dist/antd.less'
 
-if (true) {
-}
+// if (true) {
+// }
 
 function App(): React.ReactElement {
   const [count, setCount] = useState(0)
@@ -32,9 +34,10 @@ function App(): React.ReactElement {
       <div className="text">
         {text} - {count}
       </div>
-      <img className="image" src={require('./assets/vue.png')} />
+      <img className="image" src={require('./assets/vue.png') as string} />
       <div className="image bg-image" />
       <img className="image svg-image" src={svgImg} />
+      <Button type="primary">abc</Button>
     </div>
   )
 }

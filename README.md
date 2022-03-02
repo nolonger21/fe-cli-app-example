@@ -28,7 +28,7 @@ Research learning, simplified configuration, decoupled plug-ins, React support, 
 - The built-in Vue is extracted as a plug-in "@etherfe/cli-plugin-vue"
 - Add Vue3 plugin "@etherfe/cli-plugin-vue3"
 - Add React plugin "@etherfe/cli-plugin-react"
-- Add Eslint version of the typescript "@etherfe/cli-plugin-eslint-typescript"
+- Add Eslint version of the typescript "@etherfe/cli-plugin-typescript"
 - Add Stylelint plugin "@etherfe/cli-plugin-eslint-stylelint"
 - Optimize the plugin "@etherfe/cli-plugin-typescript"
 - The environment file variable starts with "APP_"

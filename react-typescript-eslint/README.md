@@ -30,7 +30,7 @@ tsconfig.json
 
 ```
 @etherfe/cli-plugin-eslint  
-@etherfe/cli-plugin-eslint-typescript  
+@etherfe/cli-plugin-typescript  
 @etherfe/eslint-plugin  
 eslint  
 ```

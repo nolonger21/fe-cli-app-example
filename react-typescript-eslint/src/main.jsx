@@ -12,5 +12,5 @@ console.info(process.env.APP_3)
 
 window.a
 
-if (true) {
-}
+// if (true) {
+// }

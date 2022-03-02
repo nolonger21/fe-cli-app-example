@@ -20,6 +20,10 @@ module.exports = ({ feConfig, chainWebpack } = {}) => {
         //   sourceMap: false,
         //   loaderOptions: {},
         // },
+        typescriptOptions: {
+          // linter: 'eslint',
+          // parser: 'babel',
+        },
         eslintOptions: {
           formatter: 'codeframe', // default 'stylish'
           fix: true, // save auto fix. recommended editor plug-in eslint/prettier
